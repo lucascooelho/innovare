@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/innovare/static/css/main.3f0d6a21.css",
+    "main.js": "/innovare/static/js/main.befae7ab.js",
+    "static/js/787.5dd745cf.chunk.js": "/innovare/static/js/787.5dd745cf.chunk.js",
+    "static/media/angelica-coelho.png": "/innovare/static/media/angelica-coelho.2ff664062290acb6d64f.png",
+    "static/media/cta-banner.png": "/innovare/static/media/cta-banner.291e784fdcf8b25bea31.png",
+    "static/media/innovare-banner.png": "/innovare/static/media/innovare-banner.2f5e5638f617a3df8caf.png",
+    "static/media/blog-1.jpg": "/innovare/static/media/blog-1.c50d9d30ad1bfaca4721.jpg",
+    "static/media/about.png": "/innovare/static/media/about.03bd92a081b4eebc9861.png",
+    "static/media/blog-3.jpg": "/innovare/static/media/blog-3.bbb57d424107d5c3b4bd.jpg",
+    "static/media/blog-2.jpg": "/innovare/static/media/blog-2.1f744ff7c2a013fc8784.jpg",
+    "static/media/service-banner.png": "/innovare/static/media/service-banner.febe59da015abc8b35ec.png",
+    "index.html": "/innovare/index.html",
+    "main.3f0d6a21.css.map": "/innovare/static/css/main.3f0d6a21.css.map",
+    "main.befae7ab.js.map": "/innovare/static/js/main.befae7ab.js.map",
+    "787.5dd745cf.chunk.js.map": "/innovare/static/js/787.5dd745cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f0d6a21.css",
+    "static/js/main.befae7ab.js"
+  ]
+}
