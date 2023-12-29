@@ -76,42 +76,42 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Tratamento de Canal</span>
               </a>
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Próteses Dentária</span>
               </a>
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Aparelhos Ortodônticos</span>
               </a>
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Implantes</span>
               </a>
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Restaurações e Lente em Resina</span>
               </a>
             </li>
 
             <li>
-              <a href="#" className="footer-link">
+              <a href="#service" className="footer-link">
                 <ion-icon name="add-outline"></ion-icon>
                 <span className="span">Clareamentos</span>
               </a>

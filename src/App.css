@@ -68,12 +68,12 @@
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
-  background: #343444;
+  background: var(--innovare-blue);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
-  background: var(--royal-blue-light);
+  background: var(--innovare-brown);
 }
 
 /* reset */
@@ -191,7 +191,7 @@ body {
     var(--innovare-brown) 0%,
     var(--innovare-blue) 100%
   ); */
-  background:  var(--oxford-blue-1);
+  background: var(--oxford-blue-1);
   color: var(--white);
   font-size: var(--fs-7);
   text-transform: uppercase;
@@ -203,7 +203,7 @@ body {
 
 .btn:is(:hover, :focus) {
   /* --deg: -90deg; */
-  background:  var(--innovare-brown);
+  background: var(--innovare-brown);
   transition: var(--transition-in-out);
 }
 
@@ -534,12 +534,11 @@ body {
 
 .cta .btn {
   max-width: max-content;
-  background:  var(--innovare-brown);
+  background: var(--innovare-brown);
 }
 
 /* blog */
-.blog
-.section-title {
+.blog .section-title {
   margin-block-end: 50px;
 }
 
@@ -553,8 +552,7 @@ body {
   box-shadow: var(--shadow-5);
 }
 
-.blog-card
-.card-banner {
+.blog-card .card-banner {
   position: relative;
   border-radius: var(--radius-4);
   overflow: hidden;
@@ -666,7 +664,11 @@ body {
   color: var(--light-gray);
 }
 
-.footer-item .item-text:is(:hover, :focus) {
+/* .footer-item .item-text:is(:hover, :focus) {
+  color: var(--innovare-brown);
+} */
+.footer-item:hover .item-icon ion-icon,
+.footer-item:hover .item-text {
   color: var(--innovare-brown);
 }
 
@@ -759,7 +761,12 @@ body {
   opacity: 1;
 }
 
+.back-top-btn:is(:hover, :focus) {
+  background-color: var(--innovare-brown);
+}
+
 /* media queries */
+
 /* larger than 575px */
 @media (min-width: 575px) {
   /* custom */
@@ -786,35 +793,20 @@ body {
   }
 }
 
-/**
- * responsive for larger than 768px screen
- */
-
+/* larger than 768px */
 @media (min-width: 768px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
+  /* custom */
   :root {
-    /**
-     * typography
-     */
-
+    /* typography */
     --fs-2: 4.8rem;
   }
 
-  /**
-   * RESET
-   */
-
+  /* reset */
   body {
     font-size: 1.6rem;
   }
 
-  /**
-   * REUSED STYLE
-   */
-
+  /* reused style */
   .container {
     max-width: 750px;
   }
@@ -823,10 +815,7 @@ body {
     --fs-6: 2.2rem;
   }
 
-  /**
-   * HERO
-   */
-
+  /* hero */
   .hero {
     overflow: hidden;
   }
@@ -863,27 +852,18 @@ body {
     margin-inline-end: -60px;
   }
 
-  /**
-   * SERVICE
-   */
-
+  /* service */
   .service-list {
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
   }
 
-  /**
-   * DOCTOR
-   */
-
+  /* staff */
   .scrollbar-item {
     min-width: calc(50% - 15px);
   }
 
-  /**
-   * CTA
-   */
-
+  /* cta */
   .cta {
     padding-block: 0;
   }
@@ -903,18 +883,12 @@ body {
     padding-block: 60px;
   }
 
-  /**
-   * BLOG
-   */
-
+  /* blog */
   .blog-list {
     grid-template-columns: 1fr 1fr;
   }
 
-  /**
-   * FOOTER
-   */
-
+  /* footer */
   .footer-bottom {
     padding-block: 30px;
   }
@@ -929,10 +903,7 @@ body {
     margin-block-end: 0;
   }
 
-  /**
-   * BACK TO TOP
-   */
-
+  /* back to top */
   .back-top-btn {
     bottom: 70px;
     right: 50px;
@@ -943,16 +914,11 @@ body {
  * responsive for larger than 992px screen
  */
 
+/* larger than 992px */
 @media (min-width: 992px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
+  /* custom */
   :root {
-    /**
-     * typography
-     */
-
+    /* typography */
     --fs-2: 6rem;
     --fs-1: 4.6rem;
     --fs-3: 4.6rem;
@@ -961,15 +927,12 @@ body {
   /**
    * REUSED STYLE
    */
-
+  /* reused style */
   .container {
     max-width: 980px;
   }
 
-  /**
-   * HEADER
-   */
-
+  /* header */
   .header-top {
     display: block;
     background-color: var(--oxford-blue-1);
@@ -1062,10 +1025,7 @@ body {
     padding: 15px 20px;
   }
 
-  /**
-   * SERVICE
-   */
-
+  /* service */
   .service-list {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1077,10 +1037,7 @@ body {
     align-self: center;
   }
 
-  /**
-   * ABOUT
-   */
-
+  /* about */
   .about .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1092,70 +1049,43 @@ body {
     margin-block-end: 0;
   }
 
-  /**
-   * DOCTOR
-   */
-
+  /* staff */
   .scrollbar-item {
     min-width: calc(33.33% - 20px);
   }
 
-  /**
-   * CTA
-   */
-
+  /* cta */
   .cta-content {
     padding-block: 80px;
   }
 
-  /**
-   * BLOG
-   */
-
+  /* blog */
   .blog-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /**
-   * FOOTER
-   */
-
+  /* footer */
   .footer-top .container {
     grid-template-columns: 1fr 0.5fr 0.6fr 0.75fr;
   }
 }
 
-/**
- * responsive for larger than 1200px screen
- */
-
+/* larger than 1200px */
 @media (min-width: 1200px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
+  /* custom */
   :root {
-    /**
-     * typography
-     */
-
+    /* typography */
     --fs-2: 8rem;
     --fs-1: 5.5rem;
     --fs-3: 4.8rem;
   }
 
-  /**
-   * REUSED STYLE
-   */
-
+  /* reused style */
   .container {
     max-width: 1180px;
   }
 
-  /**
-   * HEADER
-   */
-
+  /* header */
   .contact-list {
     gap: 30px;
   }
@@ -1172,19 +1102,13 @@ body {
     gap: 15px;
   }
 
-  /**
-   * ABOUT
-   */
-
+  /* about */
   .about .container {
     grid-template-columns: 0.85fr 1fr;
     gap: 100px;
   }
 
-  /**
-   * DOCTOR
-   */
-
+  /* staff */
   .doctor {
     padding-block-end: 180px;
   }
@@ -1198,10 +1122,7 @@ body {
     margin-block-end: 0;
   }
 
-  /**
-   * CTA
-   */
-
+  /* cta */
   .cta .container {
     align-items: center;
   }
