@@ -22,7 +22,7 @@ const CTA = () => {
           <h2 className="h2 section-title">
             Estamos abertos e receptivos aos pacientes
           </h2>
-          <a href="#" className="btn">
+          <a href="https://api.whatsapp.com/send?phone=5518997298778" className="btn">
             Agendar
           </a>
         </div>
